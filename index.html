@@ -146,7 +146,7 @@
     footer { display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; padding: 27px 0 35px; margin-top: 28px; border-top: 1px solid var(--line); color: var(--muted); font-size: .81rem; }
     .back-top { position: fixed; right: 22px; bottom: 22px; z-index: 80; width: 44px; height: 44px; display: grid; place-items: center; border: 1px solid rgba(100,230,181,.25); border-radius: 13px; background: rgba(13, 31, 47, .92); color: var(--green); font-size: 1.2rem; box-shadow: 0 8px 28px rgba(0,0,0,.25); opacity: 0; visibility: hidden; transform: translateY(8px); transition: .2s; }
     .back-top.visible { opacity: 1; visibility: visible; transform: translateY(0); }
-    .reveal { opacity: 0; transform: translateY(18px); transition: opacity .65s ease, transform .65s ease; }
+    .reveal { opacity: 1; transform: none; transition: opacity .65s ease, transform .65s ease; }
     .reveal.is-visible { opacity: 1; transform: translateY(0); }
     .research-grid .reveal:nth-child(2), .skills-grid .reveal:nth-child(2), .skills-grid .reveal:nth-child(4), .skills-grid .reveal:nth-child(6), .skills-grid .reveal:nth-child(8) { transition-delay: .07s; }
     .research-grid .reveal:nth-child(3), .skills-grid .reveal:nth-child(3), .skills-grid .reveal:nth-child(7) { transition-delay: .12s; }
